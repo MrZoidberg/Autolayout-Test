@@ -26,6 +26,8 @@
 		C327F366162CB63B00317597 /* AutoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C327F365162CB63B00317597 /* AutoViewController.xib */; };
 		CE9218091639444000D25E47 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9218081639444000D25E47 /* smile.png */; };
 		CE92180B1639458F00D25E47 /* Surface.png in Resources */ = {isa = PBXBuildFile; fileRef = CE92180A1639458F00D25E47 /* Surface.png */; };
+		CE92180F1639600E00D25E47 /* AutoDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE92180D1639600D00D25E47 /* AutoDemoViewController.m */; };
+		CE9218111639722000D25E47 /* AutoDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9218131639722000D25E47 /* AutoDemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,9 @@
 		C327F365162CB63B00317597 /* AutoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoViewController.xib; sourceTree = "<group>"; };
 		CE9218081639444000D25E47 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 		CE92180A1639458F00D25E47 /* Surface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Surface.png; sourceTree = "<group>"; };
+		CE92180C1639600D00D25E47 /* AutoDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoDemoViewController.h; sourceTree = "<group>"; };
+		CE92180D1639600D00D25E47 /* AutoDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoDemoViewController.m; sourceTree = "<group>"; };
+		CE9218121639722000D25E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AutoDemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,9 @@
 				C327F362162CB62400317597 /* AutoViewController.h */,
 				C327F363162CB63000317597 /* AutoViewController.m */,
 				C327F365162CB63B00317597 /* AutoViewController.xib */,
+				CE92180C1639600D00D25E47 /* AutoDemoViewController.h */,
+				CE92180D1639600D00D25E47 /* AutoDemoViewController.m */,
+				CE9218131639722000D25E47 /* AutoDemoViewController.xib */,
 				C327F335162CA47F00317597 /* Supporting Files */,
 			);
 			path = "Autolayout Test";
@@ -198,6 +206,7 @@
 				C327F366162CB63B00317597 /* AutoViewController.xib in Resources */,
 				CE9218091639444000D25E47 /* smile.png in Resources */,
 				CE92180B1639458F00D25E47 /* Surface.png in Resources */,
+				CE9218111639722000D25E47 /* AutoDemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +223,7 @@
 				C327F35B162CA76C00317597 /* ProblemViewController.m in Sources */,
 				C327F35F162CAB8800317597 /* SolveByCodeViewController.m in Sources */,
 				C327F364162CB63000317597 /* AutoViewController.m in Sources */,
+				CE92180F1639600E00D25E47 /* AutoDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +244,14 @@
 				C327F34D162CA47F00317597 /* en */,
 			);
 			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		CE9218131639722000D25E47 /* AutoDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9218121639722000D25E47 /* en */,
+			);
+			name = AutoDemoViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

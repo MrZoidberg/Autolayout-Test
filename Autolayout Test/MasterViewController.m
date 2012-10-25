@@ -10,6 +10,7 @@
 #import "ProblemViewController.h"
 #import "SolveByCodeViewController.h"
 #import "AutoViewController.h"
+#import "AutoDemoViewController.h"
 
 @interface MasterViewController () {
     
@@ -22,7 +23,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Auto Layout Test", @"Auto Layout Test");
+        self.title = NSLocalizedString(@"Auto Layout Demo", @"Auto Layout Demo");
     }
     return self;
 }
@@ -48,7 +49,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return 4;
 }
 
 // Customize the appearance of table view cells.
@@ -71,9 +72,14 @@
             break;
         case 2:
             cell.textLabel.text = @"Auto layout";
+            break;
+        case 3:
+            cell.textLabel.text = @"Constraints demo";        
+            break;
         default:
             break;
     }
+    
     return cell;
 }
 
@@ -95,12 +101,15 @@
             controller = [[SolveByCodeViewController alloc] initWithNibName:@"SolveByCodeViewController" bundle:nil];
             break;
         case 2:
-            
             controller = [[AutoViewController alloc] initWithNibName:@"AutoViewController" bundle:nil];
+            break;
+        case 3:
+            controller = [[AutoDemoViewController alloc] initWithNibName:@"AutoDemoViewController" bundle:nil];
             break;
         default:
             break;
     }
+    
     [self.navigationController pushViewController:controller animated:YES];
 }
 
