@@ -28,6 +28,9 @@ Auto Layout basics
 -------------
 
     + [Cocoa Auto Layout Guide](https://developer.apple.com/library/mac/#documentation/UserExperience/Conceptual/AutolayoutPG/Articles/Introduction.html)
+    + [WWDC 2012 Introduction to Auto Layout for iOS and OS X](https://developer.apple.com/videos/wwdc/2012/?include=202#202)
+    + [WWDC 2012 Best Practices for Mastering Auto Layout](https://developer.apple.com/videos/wwdc/2012/?include=228#228)
+    + [WWDC 2012 Auto Layout by Example](https://developer.apple.com/videos/wwdc/2012/?include=232#232)
 
 5. Copy&Paste
 -------------
