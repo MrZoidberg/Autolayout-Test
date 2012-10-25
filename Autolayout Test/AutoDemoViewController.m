@@ -30,7 +30,7 @@
     // Do any additional setup after loading the view from its nib.
     //self.label2.text = @"A VERY IMPORTANT TITLE";
     
-    
+    /*
     UILabel *lbl1 = [[UILabel alloc] init];
     lbl1.text = @"Really big stupid label title:";
     [lbl1 setTranslatesAutoresizingMaskIntoConstraints:NO];
@@ -42,6 +42,7 @@
     lbl2.backgroundColor = [UIColor colorWithRed:210.0/255.0 green:210.0/255.0 blue:210.0/255.0 alpha:1.0];
     [lbl2 setTranslatesAutoresizingMaskIntoConstraints:NO];
     [self.subView addSubview:lbl2];
+    */
     
     /*
     // |- [label 1]
@@ -63,20 +64,18 @@
     [self.subView addConstraint:cn];
     */
     
-
+    /*
     NSDictionary *viewsDict = NSDictionaryOfVariableBindings(lbl1,lbl2);
     
-    NSArray *cnArray = [NSLayoutConstraint constraintsWithVisualFormat:@"|-10-[lbl1(130)]-[lbl2(==lbl1)]-20-|" options:NSLayoutFormatAlignAllBaseline metrics:nil views:viewsDict];
+    NSArray *cnArray;
+    cnArray = [NSLayoutConstraint constraintsWithVisualFormat:@"|-10-[lbl1]-[lbl2]->=20-|" options:NSLayoutFormatAlignAllBaseline metrics:nil views:viewsDict];
     [self.subView addConstraints:cnArray];
     
     cnArray = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[lbl1]" options:NSLayoutFormatAlignAllBaseline metrics:nil views:viewsDict];
     [self.subView addConstraints:cnArray];
     
     [lbl2 setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisHorizontal];
-    
-    
-    
-    //NSArray *cnArray = [NSLayoutConstraint constraintsWithVisualFormat:@"|-10-[lbl1]-[lbl2]->=20-|" options:NSLayoutFormatAlignAllBaseline metrics:nil views:viewsDict];
+    */
 }
 
 - (void)didReceiveMemoryWarning
