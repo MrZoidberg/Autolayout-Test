@@ -24,6 +24,8 @@
 		C327F361162CAB9300317597 /* SolveByCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C327F360162CAB9300317597 /* SolveByCodeViewController.xib */; };
 		C327F364162CB63000317597 /* AutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C327F363162CB63000317597 /* AutoViewController.m */; };
 		C327F366162CB63B00317597 /* AutoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C327F365162CB63B00317597 /* AutoViewController.xib */; };
+		CE9218091639444000D25E47 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9218081639444000D25E47 /* smile.png */; };
+		CE92180B1639458F00D25E47 /* Surface.png in Resources */ = {isa = PBXBuildFile; fileRef = CE92180A1639458F00D25E47 /* Surface.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		C327F362162CB62400317597 /* AutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoViewController.h; sourceTree = "<group>"; };
 		C327F363162CB63000317597 /* AutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoViewController.m; sourceTree = "<group>"; };
 		C327F365162CB63B00317597 /* AutoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoViewController.xib; sourceTree = "<group>"; };
+		CE9218081639444000D25E47 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
+		CE92180A1639458F00D25E47 /* Surface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Surface.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 		C327F335162CA47F00317597 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE92180A1639458F00D25E47 /* Surface.png */,
+				CE9218081639444000D25E47 /* smile.png */,
 				C327F336162CA47F00317597 /* Autolayout Test-Info.plist */,
 				C327F337162CA47F00317597 /* InfoPlist.strings */,
 				C327F33A162CA47F00317597 /* main.m */,
@@ -190,6 +196,8 @@
 				C327F35C162CA76C00317597 /* ProblemViewController.xib in Resources */,
 				C327F361162CAB9300317597 /* SolveByCodeViewController.xib in Resources */,
 				C327F366162CB63B00317597 /* AutoViewController.xib in Resources */,
+				CE9218091639444000D25E47 /* smile.png in Resources */,
+				CE92180B1639458F00D25E47 /* Surface.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +332,7 @@
 				C327F356162CA47F00317597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

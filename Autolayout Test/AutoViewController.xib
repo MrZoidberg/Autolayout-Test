@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1536</int>
-		<string key="IBDocument.SystemVersion">12C60</string>
+		<string key="IBDocument.SystemVersion">11G63</string>
 		<string key="IBDocument.InterfaceBuilderVersion">2843</string>
-		<string key="IBDocument.AppKitVersion">1187.34</string>
-		<string key="IBDocument.HIToolboxVersion">625.00</string>
+		<string key="IBDocument.AppKitVersion">1138.51</string>
+		<string key="IBDocument.HIToolboxVersion">569.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">1929</string>
@@ -51,9 +51,14 @@
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAwLjAwMTk2MDYxMzUxOSAwLjEwMTc1Mjg1NjMAA</bytes>
 						</object>
+						<int key="IBUIContentMode">1</int>
 						<int key="IBUITag">100</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">Surface.png</string>
+						</object>
 					</object>
 					<object class="IBUIImageView" id="349519980">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -67,9 +72,14 @@
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwLjY4OTk0NjgwNzUgMQA</bytes>
 						</object>
+						<int key="IBUIContentMode">1</int>
 						<int key="IBUITag">101</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<object class="NSCustomResource" key="IBUIImage" id="308437061">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">smile.png</string>
+						</object>
 					</object>
 					<object class="IBUIImageView" id="815930895">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -83,9 +93,11 @@
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAxIDAuMDE2MDYyNjA4ODcAA</bytes>
 						</object>
+						<int key="IBUIContentMode">1</int>
 						<int key="IBUITag">102</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<reference key="IBUIImage" ref="308437061"/>
 					</object>
 					<object class="IBUITextView" id="522239829">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -449,7 +461,7 @@
 								<object class="IBLayoutConstant" key="constant">
 									<double key="value">190</double>
 								</object>
-								<float key="priority">1000</float>
+								<float key="priority">500</float>
 								<reference key="containingView" ref="877057546"/>
 								<int key="scoringType">9</int>
 								<float key="scoringTypeFloat">40</float>
@@ -571,18 +583,8 @@
 						<reference key="parent" ref="877057546"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">129</int>
-						<reference key="object" ref="375057941"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">145</int>
 						<reference key="object" ref="290098634"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">147</int>
-						<reference key="object" ref="17692595"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
@@ -598,6 +600,16 @@
 					<object class="IBObjectRecord">
 						<int key="objectID">151</int>
 						<reference key="object" ref="598327843"/>
+						<reference key="parent" ref="191373211"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">129</int>
+						<reference key="object" ref="375057941"/>
+						<reference key="parent" ref="191373211"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">147</int>
+						<reference key="object" ref="17692595"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</array>
@@ -640,7 +652,7 @@
 				<string key="150.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="151.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="73.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<array class="NSMutableArray" key="73.IBViewMetadataConstraints">
+				<array key="73.IBViewMetadataConstraints">
 					<reference ref="154277976"/>
 				</array>
 				<boolean value="NO" key="73.IBViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
@@ -665,7 +677,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">151</int>
+			<int key="maxID">156</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -719,6 +731,10 @@
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="Surface.png">{980, 717}</string>
+			<string key="smile.png">{190, 190}</string>
+		</dictionary>
 		<bool key="IBDocument.UseAutolayout">YES</bool>
 		<string key="IBCocoaTouchPluginVersion">1929</string>
 	</data>
