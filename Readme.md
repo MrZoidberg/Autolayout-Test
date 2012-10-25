@@ -1,8 +1,6 @@
 Auto Layout basics
 ==================
 
-!
-
 1. The problem with springs and struts
 --------------------------------------
 
@@ -11,8 +9,6 @@ Auto Layout basics
 + Solutions (write by code, 2 xibs)
 + Demo
 + iPhone 5 support
-
-!
 
 2. Auto Layout
 --------------
@@ -25,12 +21,8 @@ Auto Layout basics
 + Constrains from code
 + Runtime errors (ambiguous, unsatisfiable)
 
-!
-
 3. Migrating from springs and struts
 ------------------------------------
-
-!
 
 4. References
 -------------
@@ -40,8 +32,6 @@ Auto Layout basics
 + [WWDC 2012 Best Practices for Mastering Auto Layout](https://developer.apple.com/videos/wwdc/2012/?include=228#228)
 + [WWDC 2012 Auto Layout by Example](https://developer.apple.com/videos/wwdc/2012/?include=232#232)
 
-!
-
 5. Copy&Paste
 -------------
     po [[UIWindow keyWindow] _autolayoutTrace]
@@ -49,5 +39,3 @@ Auto Layout basics
     //unsatisfiable constraint
     cnArray = [NSLayoutConstraint constraintsWithVisualFormat:@"[lbl1]-50-[lbl2]" options:NSLayoutFormatAlignAllBaseline metrics:nil views:viewsDict];
     [self.subView addConstraints:cnArray];
-
-
