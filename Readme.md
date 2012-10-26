@@ -21,8 +21,13 @@ Auto Layout basics
 + Constrains from code
 + Runtime errors (ambiguous, unsatisfiable)
 
-3. Migrating from springs and struts
+3. Migrating to auto layout
 ------------------------------------
+
++Partial and full conversion?
++Convert nibs
++Review programmatically created views
++Replace setFrame, etc.
 
 4. References
 -------------
